@@ -1,0 +1,43 @@
+.title {
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.btn-div {
+  display: flex;
+  align-items: center;
+}
+button {
+  height: 30px;
+  width: 30px;
+  outline: none;
+  border: none;
+  border-radius: 2px;
+  color: #fff;
+  margin-right: 8px;
+  cursor: pointer;
+}
+
+button#basic-cannon {
+  background-color: #5d95f0;
+}
+button#basic-cannon:hover {
+  background-color: #4786ec;
+}
+button#realistic-cannon {
+  background-color: #4baa65;
+}
+button#realistic-cannon:hover {
+  background-color: #399e54;
+}
+button#random-cannon {
+  background-color: #e35c55;
+}
+button#random-cannon:hover {
+  background-color: #e0463e;
+}
+body {
+  width: 90px;
+}
+
+/* ["#3aa757", "#e8453c", "#f9bb2d", "#4688f1"]; */
