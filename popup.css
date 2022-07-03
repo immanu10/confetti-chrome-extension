@@ -21,8 +21,8 @@ body {
   height: 30px;
 }
 button {
-  height: 20px;
-  width: 20px;
+  height: 22px;
+  width: 22px;
   outline: none;
   border: none;
   border-radius: 2px;
@@ -60,13 +60,25 @@ button#random-cannon:hover {
   margin-top: 6px;
 }
 .utility button {
-  font-size: 12px;
+  font-size: 10px;
   margin-right: 0;
-  border-radius: 50%;
+  /* border-radius: 50%; */
+  padding: 0;
   width: 18px;
   height: 18px;
-  color: #c6627b;
-  outline: 1px solid #c6627b;
+  color: #c64f6d;
+  color: #fff;
+  background-color: #e1a2b2;
 }
-
+.utility button:hover {
+  background-color: #db728c;
+}
+button:disabled {
+  background-color: #ccc;
+  color: #fefefe;
+  cursor: auto;
+}
+button[disabled]:hover {
+  background-color: #ccc;
+}
 /* ["#3aa757", "#e8453c", "#f9bb2d", "#4688f1"]; */

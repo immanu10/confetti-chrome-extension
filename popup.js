@@ -1,3 +1,33 @@
+const effectStyle = document.getElementById("effectStyle");
+const prevEffect = document.getElementById("prevEffect");
+const nextEffect = document.getElementById("nextEffect");
+
+const style = ["Basic", "Random", "Fireworks"];
+let page = 0;
+function makeDisabled() {
+  if (page == 0) prevEffect.disabled = true;
+  else if (page == 2) nextEffect.disabled = true;
+  else {
+    prevEffect.disabled = false;
+    nextEffect.disabled = false;
+  }
+}
+prevEffect.addEventListener("click", function () {
+  if (page > 0) {
+    page--;
+    effectStyle.textContent = style[page];
+    makeDisabled();
+  }
+});
+
+nextEffect.addEventListener("click", function () {
+  if (page < 2) {
+    page++;
+    effectStyle.textContent = style[page];
+    makeDisabled();
+  }
+});
+
 let basic_cannon = document.getElementById("basic-cannon");
 let realistic_cannon = document.getElementById("realistic-cannon");
 let random_cannon = document.getElementById("random-cannon");
