@@ -1,15 +1,28 @@
+body {
+  margin: 6px;
+  padding: 0;
+  width: 105px;
+}
 .title {
   font-size: 12px;
-  font-weight: 500;
+  font-weight: bold;
+  color: #c6627b;
+  height: 26px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
-
+.typeofcannon {
+  font-size: 12px;
+}
 .btn-div {
   display: flex;
   align-items: center;
+  height: 30px;
 }
 button {
-  height: 30px;
-  width: 30px;
+  height: 20px;
+  width: 20px;
   outline: none;
   border: none;
   border-radius: 2px;
@@ -36,8 +49,24 @@ button#random-cannon {
 button#random-cannon:hover {
   background-color: #e0463e;
 }
-body {
-  width: 90px;
+.utility {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  font-size: 12px;
+  font-weight: 500;
+  color: #c6627b;
+  height: 26px;
+  margin-top: 6px;
+}
+.utility button {
+  font-size: 12px;
+  margin-right: 0;
+  border-radius: 50%;
+  width: 18px;
+  height: 18px;
+  color: #c6627b;
+  outline: 1px solid #c6627b;
 }
 
 /* ["#3aa757", "#e8453c", "#f9bb2d", "#4688f1"]; */
