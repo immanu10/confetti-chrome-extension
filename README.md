@@ -1,6 +1,6 @@
 # party-cannon-chrome-extension
 
-Confetti🎉 effects on your screen with a single click
+🎉Confetti🎉 effects on your screen with a single click
 
 #### how to add this extension?
 
