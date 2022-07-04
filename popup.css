@@ -31,22 +31,22 @@ button {
   cursor: pointer;
 }
 
-button#basic-cannon {
+button#less-cannon {
   background-color: #5d95f0;
 }
-button#basic-cannon:hover {
+button#less-cannon:hover {
   background-color: #4786ec;
 }
-button#realistic-cannon {
+button#average-cannon {
   background-color: #4baa65;
 }
-button#realistic-cannon:hover {
+button#average-cannon:hover {
   background-color: #399e54;
 }
-button#random-cannon {
+button#more-cannon {
   background-color: #e35c55;
 }
-button#random-cannon:hover {
+button#more-cannon:hover {
   background-color: #e0463e;
 }
 .utility {
@@ -55,7 +55,7 @@ button#random-cannon:hover {
   justify-content: space-evenly;
   font-size: 12px;
   font-weight: 500;
-  color: #c6627b;
+  color: #db728c;
   height: 26px;
   margin-top: 6px;
 }

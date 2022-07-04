@@ -8,5 +8,11 @@
 2. Go to chrome extensions tab > manage extensions > Load unpacked
 3. Select the extracted folder.
 4. Use it and get satisfied 😁.
+   <br/>
+   <br/>
+
+### Extension snapshot :
+
+![Demo](./images/readmeImg.png)
 
 ##### Script Used for Confetti Animation - https://github.com/catdad/canvas-confetti
