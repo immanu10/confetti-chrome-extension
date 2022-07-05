@@ -1,12 +1,32 @@
 <!DOCTYPE html>
 <html>
-  <head></head>
-  <body style="text-align: center">
+  <head>
+    <link rel="stylesheet" href="options.css" />
+  </head>
+  <body>
     <div>
-      <h4>Customize Your Party Cannon!!</h4>
-      <p>In progress...</p>
+      <img src="/images/celebration32.png" alt="logo" />
+      <h2 style="color: #db728c">Customize Your Party Cannon Extension!</h2>
+    </div>
+    <p>
+      Your default view is set to
+      <span id="defaultViewMsg" style="color: #db728c; font-weight: 500"></span>
+    </p>
+    <form>
+      <div>
+        <label for="confetti-type">Choose your default View :</label>
+        <select name="confetti" id="confetti-type">
+          <option value="Basic">Basic</option>
+          <option value="Random">Random</option>
+          <option value="Party-Gun">Party-Gun</option>
+        </select>
+      </div>
+      <button id="save" type="submit">Save</button>
+    </form>
+    <p id="savedalert" style="color: #4baa65; font-size: 16px"></p>
+    <div class="credits">
       <small
-        >Used this script :
+        >Thank you! Confetti script used :
         <a href="https://github.com/catdad/canvas-confetti" target="_blank"
           >https://github.com/catdad/canvas-confetti</a
         ></small
