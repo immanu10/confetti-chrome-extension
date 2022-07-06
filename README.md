@@ -15,4 +15,4 @@
 
 ![Demo](./images/readmeImg.png)
 
-##### Script Used for Confetti Animation - https://github.com/catdad/canvas-confetti
+##### Script Used for Confetti Animation - https://github.com/catdad/canvas-confetti - Thank you❤️
