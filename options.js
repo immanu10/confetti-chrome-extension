@@ -7,8 +7,13 @@ const defaultViewMsg = document.getElementById("defaultViewMsg");
 const style = ["Basic", "Random", "Party-Gun"];
 
 chrome.storage.sync.get("viewIndex", ({ viewIndex }) => {
-  defaultViewMsg.textContent = `${style[viewIndex]}`;
-  selection.selectedIndex = viewIndex;
+  if (viewIndex) {
+    defaultViewMsg.textContent = `${style[viewIndex]}`;
+    selection.selectedIndex = viewIndex;
+  } else {
+    defaultViewMsg.textContent = `${style[0]}`;
+    selection.selectedIndex = 0;
+  }
 });
 
 function saveView(e) {
