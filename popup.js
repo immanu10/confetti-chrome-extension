@@ -97,6 +97,7 @@ async function start() {
       (function frame() {
         confetti({
           particleCount: 2,
+          colors: ["88ff5a", "#a25afd"],
           angle: 60,
           spread: 45,
           origin: { x: 0, y: 0.9 },
@@ -104,6 +105,7 @@ async function start() {
         });
         confetti({
           particleCount: 2,
+          colors: ["88ff5a", "#a25afd"],
           angle: 120,
           spread: 45,
           origin: { x: 1, y: 0.9 },

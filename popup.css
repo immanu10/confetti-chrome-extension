@@ -35,19 +35,19 @@ button#less-cannon {
   background-color: #5d95f0;
 }
 button#less-cannon:hover {
-  background-color: #4786ec;
+  filter: brightness(0.9);
 }
 button#average-cannon {
   background-color: #4baa65;
 }
 button#average-cannon:hover {
-  background-color: #399e54;
+  filter: brightness(0.9);
 }
 button#more-cannon {
   background-color: #e35c55;
 }
 button#more-cannon:hover {
-  background-color: #e0463e;
+  filter: brightness(0.9);
 }
 .utility {
   display: flex;
@@ -62,7 +62,7 @@ button#more-cannon:hover {
 .utility button {
   font-size: 10px;
   margin-right: 0;
-  /* border-radius: 50%; */
+  border-radius: 50%;
   padding: 0;
   width: 18px;
   height: 18px;
