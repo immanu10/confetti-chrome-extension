@@ -1,6 +1,6 @@
 {
-  "name": "Effects on screen",
-  "description": "Learning to make extension",
+  "name": "Party Cannon",
+  "description": "Confetti effects on your screen with a single click",
   "version": "1.0",
   "manifest_version": 3,
   "web_accessible_resources": [
