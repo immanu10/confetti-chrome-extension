@@ -13,6 +13,6 @@
 
 ### Extension snapshot :
 
-![Demo](./images/readmeImg.png)
+![Demo](./images/demosnapshot.png)
 
 ##### Script Used for Confetti Animation - https://github.com/catdad/canvas-confetti - Thank you❤️
